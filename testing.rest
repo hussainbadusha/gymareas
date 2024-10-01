@@ -1,0 +1,31 @@
+###
+GET http://localhost:64909/gym
+
+###
+POST http://localhost:64909/gym
+Content-Type: application/json
+
+{
+    "name": "Hussain 1",
+    "username": "hussain",
+    "email": "hussain@gmail.com"
+}
+
+###
+PUT http://localhost:64909/gym
+Content-Type: application/json
+
+{
+    "id": "66fa97faee1b404cc0045ddc",
+    "name": "M. Hussain Badusa",
+    "username": "husbadu",
+    "email": "hussain@badusha.com"
+}
+
+###
+DELETE http://localhost:64909/gym
+Content-Type: application/json
+
+{
+    "id": "66fa97faee1b404cc0045ddc"
+}
