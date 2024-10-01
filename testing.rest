@@ -2,29 +2,25 @@
 GET http://localhost:64909/gym
 
 ###
+GET http://localhost:64909/gym/66fb9fb53bd047aa5d8657bb
+
+###
 POST http://localhost:64909/gym
 Content-Type: application/json
 
 {
-    "name": "Get Well Gym",
-    "desc": "hussain"
+    "name": "Abdurahman",
+    "desc": "Rahman desc"
 }
 
 ###
-PUT http://localhost:64909/gym
+PUT http://localhost:64909/gym/66fb9fb53bd047aa5d8657bb
 Content-Type: application/json
 
 {
-    "id": "66fa97faee1b404cc0045ddc",
-    "name": "M. Hussain Badusa",
-    "username": "husbadu",
-    "email": "hussain@badusha.com"
+    "name": "Abdur Rahman",
+    "desc": "Rahman"
 }
 
 ###
-DELETE http://localhost:64909/gym
-Content-Type: application/json
-
-{
-    "id": "66fa97faee1b404cc0045ddc"
-}
+DELETE http://localhost:64909/gym/66fb9f8d3bd047aa5d8657ac
