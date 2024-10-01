@@ -6,9 +6,8 @@ POST http://localhost:64909/gym
 Content-Type: application/json
 
 {
-    "name": "Hussain 1",
-    "username": "hussain",
-    "email": "hussain@gmail.com"
+    "name": "Get Well Gym",
+    "desc": "hussain"
 }
 
 ###

@@ -11,7 +11,12 @@ app.get('/', (req, res)=>{
     res.json({ msg: 'Hello' });
 })
 
-app.use('/gym', gymRoutes)
+// For raw json body - Data understanding middleware 
+app.use(express.json());
+// For form parameters
+app.use(express.urlencoded({extended: true}));
+// Route
+app.use('/gym', gymRoutes);
 
 app.listen(PORT, ()=> {
     console.log(`This server is running on PORT http://localhost:${PORT}`);

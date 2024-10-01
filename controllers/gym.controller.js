@@ -3,7 +3,8 @@ export const gymControllerList = (req, res)=> {
 }
 
 export const gymControllerCreate = (req, res)=> {
-    res.send("POST");
+    
+    res.json(req.body);
 }
 
 export const gymControllerUpdate = (req, res)=> {
